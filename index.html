@@ -551,9 +551,12 @@
           padding: 6px 20px;
           border-radius: 0;
           box-shadow: 0 5px 14px rgba(32, 40, 58, 0.06);
+          overflow: hidden;
         }
         .nav button {
           min-height: 42px;
+          min-width: 0;
+          font-size: 13px;
         }
         .card {
           padding: 19px;
@@ -703,7 +706,7 @@
       <nav class="nav" aria-label="工作台功能导航">
         <button class="active" data-page="today" aria-selected="true">
           今日安排</button
-        ><button data-page="inbox" aria-selected="false">AI 整理仓库</button
+        ><button data-page="inbox" aria-selected="false">AI仓库</button
         ><button data-page="focus" aria-selected="false">学习计时</button
         ><button data-page="habits" aria-selected="false">习惯子任务</button>
       </nav>
